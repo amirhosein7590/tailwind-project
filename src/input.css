@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    .container-fluid{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        max-width: 1200px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .row{
+        margin: 0 10px;
+        width: 100%;
+        clear: both;
+    }
+}
+@layer utilities{
+    .custome-yellow-color{
+        background-color: #fcb714;
+    }
+    .custome-services-section-color{
+        background-color: #84e199;
+    }
+    .dir-ltr{
+        direction: ltr;
+    }
+    .custome-rotate{
+        transform: rotateY(180deg);
+    }
+    .custome-overlay-color{
+        background-color: rgba(0,0,0,.1);
+    }
+    .custome-border-top-color{
+        border-top: 1px solid #d8d5d5;
+        box-shadow: 1px 3px 5px gray;
+    }
+}

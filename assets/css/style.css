@@ -1,0 +1,323 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Estedad-Regular;
+  src: url(../font-files/Estedad-Regular.woff2) format(woff2);
+}
+body {
+  font-family: Estedad-Regular;
+}
+div.nav div.navbar button:focus ~ div.dropdown {
+  display: block;
+}
+div.bg-banner img:not(.active) {
+  z-index: -1;
+}
+div.bg-banner img.active {
+  z-index: 1;
+}
+div.manage div.header li:first-child.active ~ li.selector {
+  right: 3.5rem;
+}
+div.manage div.header li:nth-of-type(2).active ~ li.selector {
+  right: 17.5rem;
+}
+div.manage div.header li:nth-of-type(4).active ~ li.selector {
+  right: 29.5rem;
+}
+div.manage div.header li:nth-of-type(5).active ~ li.selector {
+  right: 41rem;
+}
+div.manage div.header li:nth-of-type(6).active ~ li.selector {
+  right: 52.4rem;
+}
+div.manage div.header li:nth-of-type(7).active ~ li.selector {
+  right: 63rem;
+}
+div.manage div.header li:nth-of-type(8).active ~ li.selector {
+  right: 75.4rem;
+}
+div.manage div.body div.button-wrapper.active {
+  width: 140px;
+}
+div.manage div.body div.kind button:focus i {
+  transform: rotate(180deg);
+}
+div.manage div.body div.kind button:focus div.dropdown {
+  display: block;
+}
+div.manage div.body div.details input[id^="last"]:focus + label {
+  font-size: 13px;
+  top: -17px;
+  background-color: white;
+  padding: 0 9px;
+  left: 10rem;
+}
+div.manage div.body div.details input[id^="first"]:focus + label {
+  font-size: 13px;
+  top: -18px;
+  background-color: white;
+  padding: 0 10px;
+  right: 3rem;
+}
+div.manage div.body div.details input[id^="first"]:focus ~ div.dropdown {
+  display: block;
+  right: 0;
+}
+div.manage div.body div.details input[id^="last"]:focus ~ div.dropdown {
+  display: block;
+  left: 0;
+}
+div#plotId {
+  width: 350px;
+  font-family: Estedad-Regular;
+  font-size: 18px;
+}
+div#plotId div.toolbox div {
+  font-size: 15px;
+}
+div.manage div.body div.details input:focus {
+  border: 1px solid black;
+}
+div.manage
+  div.body
+  div.details
+  div.three-side
+  button.Passenger:focus
+  div.dropdown {
+  display: block;
+}
+div.manage div.body div.active {
+  z-index: 2;
+}
+div.manage div.body div.kind button {
+  padding: 5px 10px;
+}
+div.manage div.body div.kind button div.dropdown {
+  width: 300px;
+  border-radius: 10px;
+}
+div.manage div.body div.tour div.kind button:focus span.checkbox {
+  border: 6px solid #3b82f6;
+}
+div.manage a.fa-minus {
+  background-color: #93c5fd;
+}
+div.manage i.fa-repeat {
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+div.manage i.fa-repeat:hover {
+  background-color: #e9e6e6;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0bfbf;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa9a9;
+}
+div.container-fluid.nav div.responsive-logo {
+  background-color: #fcb714;
+  z-index: 100;
+}
+@media screen and (max-width: 700px) {
+  div.container-fluid.nav {
+    background-color: #fcb714;
+  }
+  div.manage div.header.active {
+    padding: 0;
+    height: auto;
+    text-align: center;
+    height: 40px;
+    border-radius: 15px;
+    position: fixed;
+    right: 9%;
+    z-index: 120;
+    background-color: white;
+    bottom: 88%;
+  }
+  div.manage div.header.active ul {
+    height: auto;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+  }
+  div.manage div.header.active li {
+    border: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  div.manage div.header.active li a {
+    display: none;
+  }
+  div.manage div.header.active li img {
+    width: 20px;
+    height: 20px;
+  }
+  div.manage div.header li img {
+    width: 25px;
+    height: 25px;
+  }
+  div.container-fluid.nav div.responsive-logo.active {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 55px;
+  }
+  div.container-fluid.nav div.responsive-logo.active img {
+    padding-bottom: 40px;
+    width: 80px;
+  }
+  div.owl-dots {
+    display: none;
+  }
+  div.container-fluid.accordion div.question.active div.answer {
+    margin-top: 20px;
+    height: 90px !important;
+  }
+  div.container-fluid.accordion div.question.active div.answer p {
+    font-size: 12px;
+  }
+}
+div.crousel div.owl-carousel div.item {
+  width: 100% !important;
+  height: 100% !important;
+}
+div.crousel div.owl-carousel div.item img {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
+div.manage div.details * {
+  font-size: 15px;
+}
+div.manage div.foregin-fly div.kind button {
+  padding: 2px 10px;
+}
+div.manage div.train div.kind button {
+  padding: 2px 10px;
+}
+div.crousel * {
+  border-radius: 10px;
+}
+div.container-fluid.accordion div.question div.answer {
+  transition: all 0.5s ease;
+}
+div.container-fluid.accordion div.question.active div.answer {
+  margin-top: 20px;
+  height: 60px;
+}
+div.container-fluid.accordion div.question.active i {
+  color: #7dd3fc;
+}
+div.container-fluid.accordion div.question button {
+  outline: 0;
+}
+div.container-fluid.accordion div.question.active button {
+  background-color: #bae6fd;
+  transform: rotate(180deg);
+}
+div.footer div.text div.button:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  border: 0.1rem solid #1d4ed8;
+}
+div.footer div.text div.button.active i {
+  transform: rotate(-180deg);
+}
+div.container-fluid.footer div.text div.dropdown ul.active {
+  height: auto;
+}
+div.container-fluid.footer div.logo div.licence img {
+  aspect-ratio: 1/2;
+}
+div.container-fluid.footer div.last img {
+  aspect-ratio: 1/2;
+}
+div.container-fluid.footer div.first li i {
+  transition: 0.5s ease;
+}
+div.container-fluid.footer div.first li.active i {
+  transform: rotate(180deg);
+}
+div.container-fluid.footer div.first li.active ul {
+  height: auto;
+}
+div.tools div.modal div.input input:focus ~ label {
+  top: -10px;
+  font-size: 11px;
+  background-color: #fff;
+  padding: 0 8px;
+}
+div.tools div.modal div.input label.active {
+  top: -10px;
+  font-size: 11px;
+  background-color: #fff;
+  padding: 0 8px;
+}
+div.tools div.modal div.button-close button:focus {
+  outline: 1px solid #d3d0d0;
+}
+div.tools div.modal div.input span.number {
+  border-right: 1px solid #d3d0d0;
+}
+div.container-fluid.nav-responsive div.container li.active svg {
+  fill: #3b82f6;
+}
+div.container-fluid.nav-responsive div.container li.active a {
+  color: #3b82f6;
+}
+button {
+  outline: 0;
+}
+input {
+  outline: 0;
+}
+div.container-fluid.nav div.responsive-logo {
+  z-index: 1000 !important;
+}
+div.manage div.header.active h1 {
+  display: none;
+}
+.dropdown {
+  z-index: 1000;
+}
+@media screen and (max-width: 760px) {
+  div.manage div.header ul li a {
+    line-height: 32px;
+    font-size: 14px;
+  }
+  div.manage div.header svg {
+    width: 30px;
+    height: 30px;
+  }
+  div.manage div.header.active svg {
+    width: 28px;
+    height: 28px;
+  }
+  div.manage div.header.active ul {
+    margin-top: 6px;
+  }
+}
